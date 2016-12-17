@@ -1,5 +1,10 @@
 # workshop-traffic-signs
 
+## Getting Started
+1. Clone or download this repository
+2. Get the data
+3. Setup your environment
+
 ## Data
 For this workshop we will be using the [German Traffic Sign Recognition Benchmark Dataset](http://benchmark.ini.rub.de/?section=gtsrb&subsection=news). Particularly a preprocessed version from [Udacity](https://www.udacity.com/) which is also used in one of the projects in their [Self-Driving Car Nanodegree Programm](https://www.udacity.com/course/self-driving-car-engineer-nanodegree--nd013). In this version all the images are resized to 32x32 pixels and already split into a train and test set. The data can be downloaded [here](https://drive.google.com/open?id=0B02X9kiSe3GBamlKYndVMi1raGM).
 

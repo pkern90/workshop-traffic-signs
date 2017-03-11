@@ -20,7 +20,7 @@ We will use python 3.5 with the following packages:
 - [matplotlib](http://matplotlib.org/)
 - [seaborn](http://seaborn.pydata.org/)
 - [tqdm](https://pypi.python.org/pypi/tqdm)
-- [TensorFlow](http://tensorflow.org)
+- [TensorFlow v1+](http://tensorflow.org)
 - [Keras](https://keras.io/)
 
 The easiest way to get started is by installing [anaconda](https://www.continuum.io/downloads). Anaconda allows to create virtual environments to keep everything nice an clean. After installing anaconda your command line tool of choice and execute the following statements.
@@ -56,22 +56,14 @@ pip install tqdm
 
 Next step is to install tensorflow which can be installed with or without gpu support. Since the gpu version is more complicate to setup and requires additional libraries like Cuda we will go with the cpu version for now. Still if you have a powerful gpu you can follow the official setup [guide](https://www.tensorflow.org/get_started/os_setup) to install the gpu version which will be a lot faster. 
 
-
-**Windows:**
+CPU Version
 ```
-pip install --upgrade https://storage.googleapis.com/tensorflow/windows/cpu/tensorflow-0.12.0rc1-cp35-cp35m-win_amd64.whl
-```
-
-**Linux:**
-```
-export TF_BINARY_URL=https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-0.12.0rc1-cp35-cp35m-linux_x86_64.whl
-pip install --ignore-installed --upgrade $TF_BINARY_URL
+pip install tensorflow
 ```
 
-**OS X:**
+GPU Version
 ```
-export TF_BINARY_URL=https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-0.12.0rc1-py3-none-any.whl
-pip install --ignore-installed --upgrade $TF_BINARY_URL
+pip install tensorflow-gpu
 ```
 
 ### Keras
